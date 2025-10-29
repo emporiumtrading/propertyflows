@@ -1,0 +1,63 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Database
+*.sqlite
+*.db
+
+# Build outputs
+build
+.next
+out
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+.cache
+.temp
+
+# Replit specific
+.replit
+replit.nix
+.config
+.upm
+.breakpoints
+
+# Test coverage
+coverage
+.nyc_output
+
+# Lock files (optional - comment out if you want to keep them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
